@@ -5,7 +5,7 @@ This code is recommended to be used with RStudio
 
 The first lines of the code are used to clean the environment, set the seed for reproducibility (not needed in this case) and to make sure that all necessary packages are installed.
 Then the code reads the necessary Excel sheet and starts to clean the data (it takes only the needed parts of the very large dataset).
-The code then chooses the year as 2022 and converts the data into numeric form
+The code then chooses the year as 2022 and converts the Population_2022 column into numeric format.
 
 Then the Benford analysis is made.
 
